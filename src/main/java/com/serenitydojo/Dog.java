@@ -5,6 +5,8 @@ public class Dog {
     public String FavoriteToy = "";
     public int Age;
 
+    static String DOG_NOISE = "Woof";
+
     public Dog(String Name, String FavoriteToy, int Age) {
         this.Name = Name;
         this.FavoriteToy = FavoriteToy;
@@ -30,4 +32,9 @@ public class Dog {
     public int getAge(){
         return this.Age;
     }
+
+    public void makeNoise (){
+        System.out.println(DOG_NOISE);
+    }
+
 }
